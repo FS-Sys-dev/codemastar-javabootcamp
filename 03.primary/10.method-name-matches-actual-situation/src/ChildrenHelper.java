@@ -10,7 +10,7 @@ public class ChildrenHelper {
         for (Child child : children) {
             System.out.printf(
                 "ID=%d のフルネームは %s です. %n",
-                child.id, child.getFullName()
+                child.id, child.getFullNameWithHonorificTitle()
             );
         }
     }
