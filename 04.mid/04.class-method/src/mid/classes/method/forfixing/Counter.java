@@ -14,7 +14,7 @@ public class Counter {
 
         System.out.printf(
                 "Counter インスタンスが生成されました: count=%d %n",
-                this.count
+                count
             );
     }
 
