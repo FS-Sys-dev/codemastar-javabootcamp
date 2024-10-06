@@ -5,16 +5,16 @@ public class QuickFixTester {
 
         Random rand = new Random();
         String myName = "山本一郎";
-        boolean isLive = rand.nextBoolean();
+        boolean isPass = rand.nextBoolean();
 
-        showMessage(myName, isLive);
+        showMessage(myName, isPass);
     }
 
-    private static void showMessage(String name, boolean isLive) {
-        if (isLive) {
-            System.out.printf("%s は生きてるよ.", name);
+    private static void showMessage(String name, boolean isPass) {
+        if (isPass) {
+            System.out.printf("%s は合格.", name);
         } else {
-            System.out.printf("%s は死んでるよ.", name);
+            System.out.printf("%s は不合格.", name);
         }
     }
 }
