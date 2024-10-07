@@ -15,7 +15,7 @@ public class SlimeAttacker {
 
             if (slime.isDead()) {
                 System.out.printf(
-                    "%s は死にました.  %n", slime.name
+                    "%s は倒れた.  %n", slime.name
                 );
             }
             System.out.println();
