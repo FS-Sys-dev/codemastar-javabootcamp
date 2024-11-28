@@ -13,10 +13,10 @@ public class HpChecker {
 
             isDead = isDead(hp);
             if (!isDead) {
-                System.out.printf("HP => %d: 生きてます. %n", hp);
+                System.out.printf("HP => %d: 動いています. %n", hp);
             }
         }
-        System.out.printf("HP => %d: 死んでます. %n", hp);
+        System.out.printf("HP => %d: 止まっています. %n", hp);
     }
 
     public static boolean isDead(int hp) {
