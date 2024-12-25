@@ -7,7 +7,7 @@ public class Adder {
                 "%d + %d = %d %n",
                 a,
                 b,
-                add(1, 2)
+                add(a, b)
             );
     }
 
