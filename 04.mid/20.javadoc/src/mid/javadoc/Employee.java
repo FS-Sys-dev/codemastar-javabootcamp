@@ -62,7 +62,7 @@ public class Employee {
 
     /**
      * 部署インスタンスを設定して自身を返す
-     * @param age 年齢
+     * @param division 部署
      * @return 自身のインスタンス
      */
     public Employee division(Division division) {
