@@ -25,7 +25,7 @@ public class Division {
 
     /**
      * 部署名を設定して自身を返す
-     * @param id 部署名
+     * @param name 部署名
      * @return 自身のインスタンス
      */
     public Division name(String name) {
