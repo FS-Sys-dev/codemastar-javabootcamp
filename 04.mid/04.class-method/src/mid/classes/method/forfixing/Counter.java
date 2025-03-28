@@ -9,7 +9,7 @@ public class Counter {
 
     public Counter() {
 
-        // インスタンス変数は this で呼べない
+        // インスタンス生成時に count をインクリメント
         ++count;
 
         System.out.printf(
@@ -19,7 +19,7 @@ public class Counter {
     }
 
     public static void showCounter() {
-        // インスタンス変数は this で呼べない
+        // static 変数は this を使わずにアクセス
         System.out.printf("counter=%d %n", count);
     }
 }
